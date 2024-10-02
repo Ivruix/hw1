@@ -1,66 +1,44 @@
-## Foundry
+#  Выполнил
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Каверин Максим, БПИ217
 
-Foundry consists of:
+# Контракты в обозревателе
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+[MyERC20Token](https://www.oklink.com/amoy/address/0x1633921bc5702350790d9ad3dac27228d9c9cdfe/contract)
 
-## Documentation
+[MyNFT](https://www.oklink.com/amoy/address/0x91ada578e73d8ba9658902e0562fc3eb2227fe0e/contract)
 
-https://book.getfoundry.sh/
+[MyERC1155Token](https://www.oklink.com/amoy/address/0x725ada11f0e83a209fdcf0431c3d7e39c089a623/contract)
 
-## Usage
+# Ответы на вопросы
 
-### Build
+## Вопрос 1 
 
-```shell
-$ forge build
-```
+В токенах ERC20 эта функция позволяет владельцу дать разрешение другому адресу тратить его токены. Это используется для проведения транзакций без прямой передачи токенов, например, биржами.
 
-### Test
+## Вопрос 2
 
-```shell
-$ forge test
-```
+- ERC721: Каждый токен уникален и представляет что-то отдельное, например, изображение.
+- ERC1155: Один контракт может управлять как уникальными, так и массовыми токенами, что полезно для игр и других приложений.
 
-### Format
+## Вопрос 3
 
-```shell
-$ forge fmt
-```
+Это токены, которые нельзя передавать другим. Они как личные достижения или удостоверения, навсегда привязанные к адресу.
 
-### Gas Snapshots
+ ## Вопрос 4
 
-```shell
-$ forge snapshot
-```
+Сделать токен непередаваемым можно, изменив функции передачи в смарт-контракте, чтобы они не работали.
 
-### Anvil
+# Скриншоты
 
-```shell
-$ anvil
-```
+![](https://i.ibb.co/JpPfLW8/photo-2-2024-10-02-17-26-27.jpg)
 
-### Deploy
+![](https://i.ibb.co/XWPRVRs/photo-1-2024-10-02-17-26-27.jpg)
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
+![](https://i.ibb.co/mXZVnDD/photo-5-2024-10-02-17-26-27.jpg)
 
-### Cast
+![](https://i.ibb.co/LJT1JZS/photo-3-2024-10-02-17-26-27.jpg)
 
-```shell
-$ cast <subcommand>
-```
+![](https://i.ibb.co/QfCLLKw/photo-4-2024-10-02-17-26-27.jpg)
 
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+![](https://i.ibb.co/Nn7sgmN/photo-6-2024-10-02-17-26-27.jpg)
